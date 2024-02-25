@@ -1,0 +1,40 @@
+
+#post-button {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+  }
+  
+  #post-feed {
+    max-width: 500px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .post-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .post-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  
+  .post-image {
+    width: 100%;
+    max-height: 200px; 
+    object-fit: cover;
+  }
+  
+  .post-content {
+    padding: 16px;
+  }
+  
+  .creator-info {
+    font-weight: bold;
+  }
+  

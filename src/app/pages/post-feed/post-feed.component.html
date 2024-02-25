@@ -1,0 +1,9 @@
+<div *ngFor="let post of posts">
+
+  <img *ngIf="post.imageUrl" [src]="post.imageUrl" alt="Posted Image">
+
+  <p>{{ post.comment }}</p>
+
+</div>
+
+<button (click)="onCreatePostClick()" id="post-button">Create Post</button>
