@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Firebase Authentication:
+
+Enable Firebase Authentication methods (email/password, Google Sign-In, etc.) based on your project requirements.
+Set up sign-in methods and configure them according to your preferences.
+This will typically involve setting up users with unique UIDs, emails, and other user-related information.
+Firestore Database:
+
+Create collections for storing data. In your case, you have a "Posts" collection.
+Each post document within the "Posts" collection should have fields like comment, creatorId, imageUrl, timestamp, etc.
+You might have a separate "Users" collection for storing user profiles.
